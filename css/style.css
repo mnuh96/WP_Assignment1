@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'Dancing Script', cursive, Helvetica;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../images/homepro.jpg');
+    height: 70vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    max-width: auto;
+    margin: 0px auto;
+}
+
+.fix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: auto;
+    margin-left: 5%;
+
+}
+
+.navitems {
+    float: right;
+    margin-top: 40px;
+    margin-right: 5%;
+}
+
+.navitems li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.navitems li a {
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 100;
+    padding: 6px;
+}
+
+.navitems li a:hover{
+    border-bottom: 4px #00B4CC solid;
+    color: #00B4CC;
+}
+
+.maincontent {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.maincontent h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+span:hover{
+    color: #00B4CC;
+}
+
+.search {
+    width: 50%;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.searchTerm {
+    width: 50%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+}
+
+.searchButton {
+    width: 100px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.urgentservices{
+    width: 70%;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+}
+.feature{
+    width: 20%;
+    cursor: pointer;
+}
+.feature:hover{
+    border: 2px solid #00B4CC;
+}
+.feature h3{
+    text-align: center;
+}
+.icon{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+hr{
+    width: 70%;
+}
+p{
+    text-align: center;
+}
+
+.categories a{
+    color: #00B4CC;
+}
+.footer {
+    position: relative;
+    height: 200px;
+    left: 0;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #00B4CC;
+    color: white;
+    text-align: center;
+ }
+ .footer p{
+     padding-top: 70px ;
+ }
+
+
+ 
+ .open-button {
+   background-color: #555;
+   color: white;
+   padding: 16px 20px;
+   border: none;
+   cursor: pointer;
+   opacity: 0.8;
+   position: fixed;
+   bottom: 23px;
+   right: 28px;
+   width: 280px;
+ }
+ 
+ .chat-popup {
+   display: none;
+   position: fixed;
+   bottom: 0;
+   right: 15px;
+   border: 3px solid #f1f1f1;
+   z-index: 9;
+ }
+ 
+ .form-container {
+   max-width: 300px;
+   padding: 10px;
+   background-color: white;
+ }
+ 
+ .form-container textarea {
+   width: 100%;
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   border: none;
+   background: #f1f1f1;
+   resize: none;
+   min-height: 200px;
+ }
+ 
+ .form-container textarea:focus {
+   background-color: #ddd;
+   outline: none;
+ }
+ 
+ .form-container .btn {
+   background-color: #4CAF50;
+   color: white;
+   padding: 16px 20px;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   margin-bottom:10px;
+   opacity: 0.8;
+ }
+ 
+ .form-container .cancel {
+   background-color: red;
+ }
+ 
+ .form-container .btn:hover, .open-button:hover {
+   opacity: 1;
+ }
+
+ .about{
+    width: 70%;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.feature01{
+    background-image: url('../images/feature1-1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    border: black 1px;
+}
+.feature02{
+    background-image: url('../images/feature1-2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    border: black 1px;
+}
+
+.feature01 h2{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+}
+.feature02 h2{
+    font-size: 50px;
+    text-align: center;
+    color: black;
+    padding-top: 0%;
+    text-shadow: 0 0 5px white;
+}
+.feature01 h3{
+    text-align: center;
+    text-shadow: 0 0 10px black, 0 0 10px black;
+    color: white;
+    padding: 15px;
+}
+.feature02 h3{
+    text-align: center;
+    text-shadow: 0 0 5px black, 0 0 5px black;
+    color: white;
+}

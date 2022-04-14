@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'Dancing Script', cursive, Helvetica;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('../images/homepro.jpg');
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    max-width: auto;
+    margin: 0px auto;
+}
+
+.fix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: auto;
+    margin-left: 5%;
+
+}
+
+.navitems {
+    float: right;
+    margin-top: 40px;
+    margin-right: 5%;
+}
+
+.navitems li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.navitems li a {
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+    font-weight: 100;
+    padding: 6px;
+}
+
+.navitems li a:hover{
+    border-bottom: 4px #00B4CC solid;
+    color: #00B4CC;
+}
+
+.maincontent {
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.maincontent h1 {
+    margin: 0;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 5 black;
+}
+
+span:hover{
+    color: #00B4CC;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+    margin: auto;
+    justify-content: center;
+    width: 50%;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    box-shadow: 0 0 10px black ;
+}
+.label{
+    color: white;
+}
